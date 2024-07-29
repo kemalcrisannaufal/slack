@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-nav-item:hover div .nav-item-text {
+    color: rgb(59, 146, 180);
+}
+
+@media (min-width: 1024px) {  
+    .btn-nav-item:hover div .nav-item-text {
+        color: black;
+      }
+}

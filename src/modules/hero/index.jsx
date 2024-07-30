@@ -48,9 +48,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full h-[50vh] flex justify-center mt-10 px-5 relative bg-cream">
+      <div className="w-full h-[40vh] lg:h-[50vh] flex justify-center mt-10 px-5 relative bg-cream">
         <video
-          className="w-[90%] lg:w-[900px] h-auto absolute top-2 lg:-translate-y-60"
+          className="w-[90%] lg:w-[900px] h-auto absolute top-0 lg:-translate-y-60"
           autoPlay
           loop
           muted

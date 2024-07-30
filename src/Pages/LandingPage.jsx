@@ -1,8 +1,11 @@
 import Navbar from "../common/navbar";
+import Hero from "../modules/hero";
+
 const LandingPage = () => {
   return (
-    <div className="lg:px-36 lg:pt-4 flex justify-center">
+    <div className="flex flex-col justify-center">
       <Navbar />
+      <Hero/>
     </div>
   );
 };

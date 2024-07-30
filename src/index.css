@@ -7,6 +7,10 @@
     color: rgb(59, 146, 180);
 }
 
+.bg-cream { 
+    background-color: #f4ede4;
+}
+
 @media (min-width: 1024px) {  
     .btn-nav-item:hover div .nav-item-text {
         color: black;

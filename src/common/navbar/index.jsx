@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full max-h-screen l flex justify-between items-center bg-white px-5 py-2 lg:rounded-l-full lg:rounded-r-full relative select-none">
+    <div className="w-full max-h-screen l flex justify-between items-center bg-white px-5 py-2 lg:rounded-l-full lg:rounded-r-full relative select-none mt-2 lg:px-36">
       
       <NavbarSlider
         isSliderOpened={isSliderOpened}

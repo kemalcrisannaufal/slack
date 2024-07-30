@@ -1,7 +1,7 @@
 import Navbar from "../common/navbar";
 import Hero from "../modules/hero";
 import Content from "../modules/content";
-
+import Testimonial from "../modules/testimonial";
 
 const LandingPage = () => {
   return (
@@ -9,6 +9,7 @@ const LandingPage = () => {
       <Navbar />
       <Hero/>
       <Content/>
+      <Testimonial/>
     </div>
   );
 };

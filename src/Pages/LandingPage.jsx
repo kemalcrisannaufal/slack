@@ -4,6 +4,7 @@ import Content from "../modules/content";
 import Testimonial from "../modules/testimonial";
 import Explores from "../modules/explores";
 import CallToAction from "../modules/callToAction";
+import Discover from "../modules/discover";
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <Testimonial />
       <Explores />
       <CallToAction />
+      <Discover/> 
     </div>
   );
 };

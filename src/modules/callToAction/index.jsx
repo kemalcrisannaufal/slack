@@ -2,10 +2,11 @@ import Button from "../../common/components/elements/Button";
 import SocialMediaIcons from "../../common/constant/socialMedia";
 import RegionDropDown from "./RegionDropDown";
 import SocialMediaIconButton from "./SocialMediaIconButton";
+import Separator from "../../common/components/elements/Separator";
 
 const CallToAction = () => {
   return (
-    <div className="w-full pb-20">
+    <div className="w-full pb-5">
       <div className="w-full bg-fuchsia-950 text-white h-[380px] rounded-b-[40%] lg:rounded-b-[45%] flex flex-col items-center justify-center px-0 lg:px-36 lg:py-20">
         <div>
           <h1 className="text-3xl lg:text-5xl font-bold text-center">
@@ -39,9 +40,7 @@ const CallToAction = () => {
           ))}
         </div>
       </div>
-      <div className="lg:px-36 mt-10">
-        <hr className="border-1 border-neutral-300" />
-      </div>
+      <Separator/>
     </div>
   );
 };

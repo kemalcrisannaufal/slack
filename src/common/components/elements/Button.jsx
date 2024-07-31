@@ -7,8 +7,8 @@ const Button = (props) => {
       type={type}
       className={`rounded px-3 py-2 lg:py-3 font-semibold text-sm md:text-md lg:text-md tracking-wide flex justify-center items-center ${
         bgColor === "white"
-          ? "bg-white border border-fuchsia-900 text-fuchsia-900 hover:ring-1 hover:ring-fuchsia-900"
-          : "bg-fuchsia-900 text-white hover:bg-fuchsia-900"
+          ? "bg-white border border-fuchsia-950 text-fuchsia-950 hover:ring-1 hover:ring-fuchsia-950"
+          : "bg-fuchsia-950 border border-white text-white hover:bg-fuchsia-950"
       } ${classname}`}
       onClick={onClick}
     >

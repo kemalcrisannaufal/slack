@@ -3,6 +3,7 @@ import Hero from "../modules/hero";
 import Content from "../modules/content";
 import Testimonial from "../modules/testimonial";
 import Explores from "../modules/explores";
+import CallToAction from "../modules/callToAction";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <Content />
       <Testimonial />
       <Explores />
+      <CallToAction />
     </div>
   );
 };

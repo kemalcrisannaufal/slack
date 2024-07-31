@@ -17,7 +17,7 @@ const Explores = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col justify-center items-center mt-7 lg:hidden slider">
+      <div className="flex flex-col justify-center items-center mt-7 md:hidden slider">
         <ExploreCard
           key={exploresItem[cardIdx]}
           tag={exploresItem[cardIdx].tag}
@@ -39,8 +39,8 @@ const Explores = () => {
         </div>
       </div>
 
-      <div className="hidden lg:block">
-        <div className="flex gap-5 items-start mt-10">
+      <div className="hidden md:flex justify-center">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 items-start mt-10">
           {exploresItem.map((item) => (
             <ExploreCard
               key={item.id}

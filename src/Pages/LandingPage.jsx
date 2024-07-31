@@ -5,6 +5,7 @@ import Testimonial from "../modules/testimonial";
 import Explores from "../modules/explores";
 import CallToAction from "../modules/callToAction";
 import Discover from "../modules/discover";
+import Footer from "../modules/footer";
 
 const LandingPage = () => {
   return (
@@ -15,7 +16,8 @@ const LandingPage = () => {
       <Testimonial />
       <Explores />
       <CallToAction />
-      <Discover/> 
+      <Discover />
+      <Footer />
     </div>
   );
 };
